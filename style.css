@@ -38,3 +38,12 @@ p {
   font-size: 16px;
   margin-left: 5px;
 }
+
+footer {
+  text-align: center;
+  font-size: 13px;
+}
+
+a {
+  color: orange;
+}
