@@ -47,3 +47,8 @@ footer {
 a {
   color: orange;
 }
+
+.weather-data {
+  display: flex;
+  justify-content: space-between;
+}
