@@ -28,3 +28,13 @@ p {
   border: none;
   font-size: 16px;
 }
+
+.search-form-button {
+  border-radius: 3px;
+  border: none;
+  width: 15%;
+  background-color: orange;
+  padding: 15px 30px;
+  font-size: 16px;
+  margin-left: 5px;
+}
