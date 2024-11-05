@@ -9,11 +9,10 @@
 
 body {
   background-color: #f9f7fe;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 p {
@@ -55,27 +54,27 @@ a {
 
 .weather-timing {
   position: relative;
-  top: 65px;
+  top: 308px;
 }
 
 .weather-figure {
   position: relative;
-  top: 65px;
-  right: 150px;
+  top: 291px;
+  right: 243px;
   font-size: 80px;
 }
 
 .weather-info {
   position: relative;
-  top: 100px;
-  right: 170px;
+  top: 289px;
+  right: 209px;
   font-size: 20px;
 }
 
 .weather-type {
   position: relative;
-  left: 320px;
-  top: 50px;
+  left: 270px;
+  top: 111px;
   font-size: 30px;
 }
 
