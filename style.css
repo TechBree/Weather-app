@@ -55,6 +55,8 @@ a {
 .weather-timing {
   position: relative;
   top: 308px;
+  font-size: 25px;
+  left: -40px;
 }
 
 .weather-figure {
@@ -83,4 +85,10 @@ h1 {
   position: relative;
   left: 241px;
   top: -100px;
+}
+
+.temperature-timing {
+  font-size: 20px;
+  position: relative;
+  left: 40px;
 }
