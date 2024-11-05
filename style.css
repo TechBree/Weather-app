@@ -71,3 +71,17 @@ a {
   right: 170px;
   font-size: 20px;
 }
+
+.weather-type {
+  position: relative;
+  left: 320px;
+  top: 50px;
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 170px;
+  position: relative;
+  left: 241px;
+  top: -100px;
+}
