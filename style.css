@@ -88,13 +88,30 @@ h1 {
 }
 
 .temperature-timing {
-  font-size: 30px;
+  font-size: 18px;
   position: relative;
+  left: 40px;
 }
 
-.humidity-wind {
+.humidity {
   font-size: 26px;
-  width: 40%;
-  margin: auto;
-  padding: 10px;
+  position: relative;
+  bottom: -29px;
+}
+
+.wind {
+  font-size: 26px;
+  position: relative;
+  right: -70px;
+}
+
+.country {
+  position: relative;
+  bottom: -20px;
+  font-size: 25px;
+}
+
+.temperature-date {
+  font-size: 18px;
+  position: relative;
 }
