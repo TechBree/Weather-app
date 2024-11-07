@@ -80,7 +80,7 @@ a {
   font-size: 30px;
 }
 
-h1 {
+.weather-icon {
   font-size: 170px;
   position: relative;
   left: 241px;
