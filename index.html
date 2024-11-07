@@ -19,16 +19,18 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nosifer&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="weather-app">
       <header>
-        <form class="search-form">
+        <form class="search-form" id="search-form">
           <input
             type="search"
             placeholder="Enter a city"
             required
             class="search-form-input"
+            id="search-form-input"
           />
           <input type="submit" value="search" class="search-form-button" />
         </form>
@@ -39,7 +41,7 @@
           <div class="weather-type">Cloudy</div>
           <div class="weather-figure">29°C</div>
           <div class="weather-info">
-            <div class="country">Paris</div>
+            <div class="country" id="city">Paris</div>
             <span class="humidity">H:96%</span>
             <span class="wind">W:1.54km/h</span>
           </div>
