@@ -115,3 +115,10 @@ h1 {
   font-size: 18px;
   position: relative;
 }
+
+.weatherCelsius {
+  position: relative;
+  top: 291px;
+  right: 243px;
+  font-size: 80px;
+}
