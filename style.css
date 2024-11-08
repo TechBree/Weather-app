@@ -1,6 +1,6 @@
 .weather-app {
   background: white;
-  max-width: 700px;
+  max-width: 807px;
   padding: 40px;
   margin: 60px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
@@ -54,16 +54,16 @@ a {
 
 .weather-timing {
   position: relative;
-  top: 308px;
-  font-size: 25px;
-  left: -40px;
+  top: 208px;
+  font-size: 29px;
+  left: -105px;
 }
 
 .weather-figure {
   position: relative;
-  top: 291px;
-  right: 243px;
-  font-size: 80px;
+  top: 169px;
+  right: 281px;
+  font-size: 101px;
 }
 
 .weather-info {
@@ -81,44 +81,56 @@ a {
 }
 
 .weather-icon {
-  font-size: 170px;
+  font-size: 126px;
   position: relative;
-  left: 241px;
-  top: -100px;
+  left: 127px;
+  top: -13px;
 }
 
 .temperature-timing {
-  font-size: 18px;
+  font-size: 22px;
   position: relative;
-  left: 40px;
+  left: -30px;
+  bottom: -14px;
 }
 
 .humidity {
   font-size: 26px;
   position: relative;
-  bottom: -29px;
+  bottom: 71px;
+  left: -85px;
 }
 
 .wind {
   font-size: 26px;
   position: relative;
-  right: -70px;
+  right: 73px;
+  bottom: 71px;
 }
 
 .country {
   position: relative;
-  bottom: -20px;
-  font-size: 25px;
+  bottom: 76px;
+  font-size: 33px;
+  left: -85px;
 }
 
 .temperature-date {
-  font-size: 18px;
+  font-size: 22px;
   position: relative;
+  right: -98px;
+  top: -17px;
 }
 
 .weatherCelsius {
   position: relative;
-  top: 291px;
-  right: 243px;
-  font-size: 80px;
+  top: 206px;
+  right: 308px;
+  font-size: 26px;
+}
+
+img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+  font-size: 60px;
 }
