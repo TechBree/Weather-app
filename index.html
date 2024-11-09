@@ -23,49 +23,49 @@
   </head>
   <body>
     <div class="weather-app">
-      <header>
-        <form class="search-form" id="search-form">
-          <input
-            type="search"
-            placeholder="Enter a city"
-            required
-            class="search-form-input"
-            id="search-form-input"
-          />
-          <input type="submit" value="search" class="search-form-button" />
-        </form>
-      </header>
-      <main>
-        <div class="weather-data">
-          <h1 class="weather-icon" id="icon">☀️</h1>
-          <div class="weather-type" id="description"></div>
-          <div class="weather-figure" id="temperature"></div>
-          <span class="weatherCelsius">°C</span>
-          <div class="weather-info">
-            <div class="country" id="city"></div>
-            <span class="humidity" id="humidity">H:</span>
-            <span class="wind" id="wind-speed"> W:</span>
+      <div class="content">
+        <header>
+          <form class="search-form" id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city"
+              required
+              class="search-form-input"
+              id="search-form-input"
+            />
+            <input type="submit" value="search" class="search-form-button" />
+          </form>
+        </header>
+        <main>
+          <div class="weather-data">
+            <h1 class="weather-icon" id="icon">☀️</h1>
+            <div class="weather-type" id="description"></div>
+            <div class="weather-figure" id="temperature"></div>
+            <span class="weatherCelsius">°C</span>
+            <div class="weather-info">
+              <div class="country" id="city"></div>
+              <span class="humidity" id="humidity">H:</span>
+              <span class="wind" id="wind-speed"> W:</span>
+            </div>
+            <div class="weather-timing">
+              <span id="time"></span>
+            </div>
           </div>
-          <div class="weather-timing">
-            <span id="time"></span>
-            <div class="temperature-timing">1st November</div>
-            <span class="temperature-date">2024</span>
-          </div>
-        </div>
-      </main>
+        </main>
 
-      <footer>
-        This project was coded by
-        <a href="https://github.com/TechBree">Bridgit Kodohu</a>, is
-        <a href="https://github.com/TechBree/Weather-app"
-          >open-sourced on GitHub
-        </a>
-        and
-        <a href="https://shecode-first-weather-app.netlify.app/"
-          >hosted on Netlify</a
-        >
-      </footer>
-      <script src="index.js"></script>
+        <footer>
+          This project was coded by
+          <a href="https://github.com/TechBree">Bridgit Kodohu</a>, is
+          <a href="https://github.com/TechBree/Weather-app"
+            >open-sourced on GitHub
+          </a>
+          and
+          <a href="https://shecode-first-weather-app.netlify.app/"
+            >hosted on Netlify</a
+          >
+        </footer>
+        <script src="index.js"></script>
+      </div>
     </div>
   </body>
 </html>

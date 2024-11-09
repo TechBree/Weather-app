@@ -1,10 +1,13 @@
 .weather-app {
-  background-color: green;
   max-width: 807px;
   padding: 40px;
   margin: 60px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 5px;
+  background-image: url(image/—Pngtree—lakescape\ landscape\ nature\ scenery\ hd_3712644.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
 }
 
 body {
@@ -12,10 +15,13 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  background-color: #f9f7fe;
-  filter: blur(3px);
+  background-color: #fdf1b1;
+  color: white;
 }
 
+.content {
+  backdrop-filter: blur(3px);
+}
 .search-form-input {
   background-color: #f9f7fe;
   border-radius: 3px;
@@ -41,7 +47,7 @@ footer {
 }
 
 a {
-  color: orange;
+  color: lightblue;
 }
 
 .weather-data {
@@ -51,14 +57,14 @@ a {
 
 .weather-timing {
   position: relative;
-  top: 208px;
+  top: 240px;
   font-size: 29px;
-  left: -105px;
+  left: -52px;
 }
 
 .weather-figure {
   position: relative;
-  top: 169px;
+  top: 192px;
   right: 281px;
   font-size: 101px;
 }
@@ -84,18 +90,11 @@ a {
   top: -13px;
 }
 
-.temperature-timing {
-  font-size: 22px;
-  position: relative;
-  left: -30px;
-  bottom: -14px;
-}
-
 .humidity {
   font-size: 26px;
   position: relative;
   bottom: 71px;
-  left: -85px;
+  left: -75px;
 }
 
 .wind {
@@ -109,20 +108,13 @@ a {
   position: relative;
   bottom: 76px;
   font-size: 33px;
-  left: -85px;
-}
-
-.temperature-date {
-  font-size: 22px;
-  position: relative;
-  right: -98px;
-  top: -17px;
+  left: -75px;
 }
 
 .weatherCelsius {
   position: relative;
-  top: 206px;
-  right: 308px;
+  top: 200px;
+  right: 297px;
   font-size: 26px;
 }
 
