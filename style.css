@@ -1,11 +1,10 @@
 .weather-app {
-  background-color: white;
+  background-color: green;
   max-width: 807px;
   padding: 40px;
   margin: 60px auto;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 5px;
-  background-image: url(/image/fields-1589613_1920.jpg);
 }
 
 body {
@@ -14,6 +13,7 @@ body {
   font-weight: weight;
   font-style: normal;
   background-color: #f9f7fe;
+  filter: blur(3px);
 }
 
 .search-form-input {
