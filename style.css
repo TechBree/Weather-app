@@ -123,3 +123,9 @@ img {
   overflow: clip;
   font-size: 60px;
 }
+
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
