@@ -61,10 +61,10 @@ function formatDay(timestamp) {
 function getForecast(city) {
   let apiKey = "bbfa370443fe49feaa41t631d604c6oa";
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=metric`;
-  axios(apiUrl).then(showForecast);
+  axios.get(apiUrl).then(displayForecast);
 }
 
-function showForecast(response) {
+function displayForecast(response) {
   let forecastHtml = "";
 
   response.data.daily.forEach(function (day, index) {
@@ -72,19 +72,20 @@ function showForecast(response) {
       forecastHtml =
         forecastHtml +
         `
-        <div class="weather-forecast-day">
+      <div class="weather-forecast-day">
         <div class="weather-forecast-date">${formatDay(day.time)}</div>
+
         <img src="${day.condition.icon_url}" class="weather-forecast-icon" />
-        <div class="weather -forecast-temperatures">
-        <div class="weather-forecast-temperature">
-        <strong>${Math.round(day.temperature.maximum)}º</strong>
+        <div class="weather-forecast-temperatures">
+          <div class="weather-forecast-temperature">
+            <strong>${Math.round(day.temperature.maximum)}º</strong>
+          </div>
+          <div class="weather-forecast-temperature">${Math.round(
+            day.temperature.minimum
+          )}º</div>
         </div>
-        <div class="weather-forecast-temperature">${Math.round(
-          day.temperature.minimum
-        )}º</div>
-        </div>
-        </div>
-        `;
+      </div>
+    `;
     }
   });
 
@@ -95,4 +96,4 @@ function showForecast(response) {
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSubmitSearch);
 
-searchCity("Warsaw");
+searchCity("Paris");
